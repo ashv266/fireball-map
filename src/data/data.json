@@ -1,0 +1,766 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "mc52-syum",
+      "name" : "Fireball And Bolide Reports",
+      "attribution" : "Near Earth Object Program",
+      "attributionLink" : "http://neo.jpl.nasa.gov/fireball/",
+      "averageRating" : 0,
+      "category" : "Space Science",
+      "createdAt" : 1427993403,
+      "description" : "Fireballs and bolides are astronomical terms for exceptionally bright meteors that are spectacular enough to to be seen over a very wide area. The following table provides a chronological data summary of fireball and bolide events provided by U.S. Government sensors. Ground-based observers sometimes also witness these events at night, or much more rarely in daylight, as impressive atmospheric light displays. This website is not meant to be a complete list of all fireball events. Only the brightest fireballs are noted.\r\n\r\nA meteoroid is generally defined as an asteroid or comet fragment that orbits the Sun and has an approximate size between ten microns and a meter or so. Meteors, or \"shooting stars,\" are the visible paths of meteoroids that have entered the Earth's atmosphere at high velocities. A fireball is an unusually bright meteor that reaches a visual magnitude of -3 or brighter when seen at the observer's zenith. Objects causing fireball events can exceed one meter in size. Fireballs that explode in the atmosphere are technically referred to as bolides although the terms fireballs and bolides are often used interchangeably.\r\n\r\nDuring the atmospheric entry phase, an impacting object is both slowed and heated by atmospheric friction. In front of it, a bow shock develops where atmospheric gases are compressed and heated. Some of this energy is radiated to the object causing it to ablate, and in most cases, to break apart. Fragmentation increases the amount of atmosphere intercepted and so enhances ablation and atmospheric braking. The object catastrophically disrupts when the force from the unequal pressures on the front and back sides exceeds its tensile strength.\r\n\r\nObjects causing fireballs are usually not large enough to survive passage through the Earth's atmosphere intact, although fragments, or meteorites, are sometimes recovered on the ground. The approximate total radiated energy in the atmosphere is provided in unit of Joules, a unit of energy given in kilograms times velocity squared, or kg x (m/s)2. An event with an energy equivalent of one thousand tons of TNT explosives is termed a kiloton (kt) event, where 1 kt = 4.185 x 1012 Joules. In the accompanying table, the total radiated energy is given but this is always less that the total impact energy. Peter Brown and colleagues have provided an empirical expression to approximately provide the total impact energy in kt (E), given the optical radiant energy in kt (Eo) (see: Brown et al., The flux of small near-Earth objects colliding with the Earth. Nature, vol. 420, 21 Nov. 2002, pp. 294-296).\r\n\r\nE = 8.2508 x Eo0.885\r\n\r\nThe accompanying table provides information on the date and time of each fireball event, its geographic location, its altitude and velocity at peak brightness, its approximate total optical radiated energy and its calculated total impact energy. The pre-impact velocity components are expressed in a geocentric Earth-fixed reference frame defined as follows: the z-axis is directed along the Earth's rotation axis towards the celestial north pole, the x-axis lies in the Earth's equatorial plane, directed towards the prime meridian, and the y-axis completes the right-handed coordinate system.\r\n\r\nhttp://neo.jpl.nasa.gov/fireball/",
+      "displayType" : "table",
+      "downloadCount" : 119,
+      "indexUpdatedAt" : 1430641928,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 10859320,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1428430880,
+      "publicationGroup" : 2592729,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1430641811,
+      "rowsUpdatedBy" : "a6xx-j6mr",
+      "state" : "normal",
+      "tableId" : 2626203,
+      "totalTimesRated" : 0,
+      "viewCount" : 946,
+      "viewLastModified" : 1428610226,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 198224697,
+        "name" : "Date/Time - Peak Brightness (UT)",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "date_time_peak_brightness_ut",
+        "position" : 1,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 27309159,
+        "width" : 484,
+        "cachedContents" : {
+          "non_null" : 92,
+          "smallest" : "2009-10-08T02:57:00",
+          "null" : 0,
+          "largest" : "2015-04-30T10:21:01",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2012-07-27T04:19:50"
+          }, {
+            "count" : 19,
+            "item" : "2012-07-25T07:48:20"
+          }, {
+            "count" : 18,
+            "item" : "2012-05-25T11:31:24"
+          }, {
+            "count" : 17,
+            "item" : "2012-05-15T11:04:17"
+          }, {
+            "count" : 16,
+            "item" : "2012-05-04T21:54:49"
+          }, {
+            "count" : 15,
+            "item" : "2012-04-23T22:01:10"
+          }, {
+            "count" : 14,
+            "item" : "2012-04-21T16:08:23"
+          }, {
+            "count" : 13,
+            "item" : "2010-12-25T23:24:00"
+          }, {
+            "count" : 12,
+            "item" : "2009-11-21T20:53:00"
+          }, {
+            "count" : 11,
+            "item" : "2009-10-08T02:57:00"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 198224713,
+        "name" : "Latitude (Deg)",
+        "dataTypeName" : "text",
+        "fieldName" : "latitude_deg",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27309171,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : 92,
+          "smallest" : "0.0N",
+          "null" : 0,
+          "largest" : "86.7N",
+          "top" : [ {
+            "count" : 20,
+            "item" : "63.1N"
+          }, {
+            "count" : 19,
+            "item" : "36.4N"
+          }, {
+            "count" : 18,
+            "item" : "41.8S"
+          }, {
+            "count" : 17,
+            "item" : "61.8S"
+          }, {
+            "count" : 16,
+            "item" : "76.7N"
+          }, {
+            "count" : 15,
+            "item" : "36.2N"
+          }, {
+            "count" : 14,
+            "item" : "15.8S"
+          }, {
+            "count" : 13,
+            "item" : "38.0N"
+          }, {
+            "count" : 12,
+            "item" : "22.0S"
+          }, {
+            "count" : 11,
+            "item" : "4.2S"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 198224715,
+        "name" : "Longitude (Deg)",
+        "dataTypeName" : "text",
+        "fieldName" : "longitude_deg",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 27309173,
+        "width" : 280,
+        "cachedContents" : {
+          "non_null" : 92,
+          "smallest" : "10.6W",
+          "null" : 0,
+          "largest" : "96.3E",
+          "top" : [ {
+            "count" : 20,
+            "item" : "64.6W"
+          }, {
+            "count" : 19,
+            "item" : "41.5E"
+          }, {
+            "count" : 18,
+            "item" : "36.2W"
+          }, {
+            "count" : 17,
+            "item" : "135.5W"
+          }, {
+            "count" : 16,
+            "item" : "10.6W"
+          }, {
+            "count" : 15,
+            "item" : "107.4E"
+          }, {
+            "count" : 14,
+            "item" : "174.8W"
+          }, {
+            "count" : 13,
+            "item" : "158.0E"
+          }, {
+            "count" : 12,
+            "item" : "29.2E"
+          }, {
+            "count" : 11,
+            "item" : "120.6E"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 198224699,
+        "name" : "Altitude (km)",
+        "dataTypeName" : "number",
+        "fieldName" : "altitude_km",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 27309160,
+        "width" : 256,
+        "cachedContents" : {
+          "non_null" : 68,
+          "smallest" : "18.7",
+          "sum" : "2197.4",
+          "null" : 24,
+          "average" : "32.31470588235294",
+          "largest" : "66.6",
+          "top" : [ {
+            "count" : 20,
+            "item" : "39"
+          }, {
+            "count" : 19,
+            "item" : "30.7"
+          }, {
+            "count" : 18,
+            "item" : "26.3"
+          }, {
+            "count" : 17,
+            "item" : "37"
+          }, {
+            "count" : 16,
+            "item" : "22.2"
+          }, {
+            "count" : 15,
+            "item" : "40.7"
+          }, {
+            "count" : 14,
+            "item" : "26"
+          }, {
+            "count" : 13,
+            "item" : "23.3"
+          }, {
+            "count" : 12,
+            "item" : "36.1"
+          }, {
+            "count" : 11,
+            "item" : "33.3"
+          }, {
+            "count" : 10,
+            "item" : "29.3"
+          }, {
+            "count" : 9,
+            "item" : "27.8"
+          }, {
+            "count" : 8,
+            "item" : "35"
+          }, {
+            "count" : 7,
+            "item" : "28.1"
+          }, {
+            "count" : 6,
+            "item" : "23.8"
+          }, {
+            "count" : 5,
+            "item" : "38.7"
+          }, {
+            "count" : 4,
+            "item" : "36"
+          }, {
+            "count" : 3,
+            "item" : "27.2"
+          }, {
+            "count" : 2,
+            "item" : "26.8"
+          }, {
+            "count" : 1,
+            "item" : "25.2"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 198224701,
+        "name" : "Velocity (km/s)",
+        "dataTypeName" : "number",
+        "fieldName" : "velocity_km_s",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 27309161,
+        "width" : 280,
+        "cachedContents" : {
+          "non_null" : 7,
+          "smallest" : "12.4",
+          "sum" : "134.6",
+          "null" : 85,
+          "average" : "19.22857142857143",
+          "largest" : "32.1",
+          "top" : [ {
+            "count" : 20,
+            "item" : "16.2"
+          }, {
+            "count" : 19,
+            "item" : "12.4"
+          }, {
+            "count" : 18,
+            "item" : "18"
+          }, {
+            "count" : 17,
+            "item" : "18.6"
+          }, {
+            "count" : 16,
+            "item" : "18.1"
+          }, {
+            "count" : 15,
+            "item" : "32.1"
+          }, {
+            "count" : 14,
+            "item" : "19.2"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 198224704,
+        "name" : "Velocity Components (km/s): vx",
+        "dataTypeName" : "number",
+        "fieldName" : "velocity_components_km_s_vx",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 27309162,
+        "width" : 460,
+        "cachedContents" : {
+          "non_null" : 52,
+          "smallest" : "-35.4",
+          "sum" : "76.4",
+          "null" : 40,
+          "average" : "1.469230769230769",
+          "largest" : "21.3",
+          "top" : [ {
+            "count" : 20,
+            "item" : "-2.3"
+          }, {
+            "count" : 19,
+            "item" : "1.4"
+          }, {
+            "count" : 18,
+            "item" : "-1.9"
+          }, {
+            "count" : 17,
+            "item" : "-10.2"
+          }, {
+            "count" : 16,
+            "item" : "-8"
+          }, {
+            "count" : 15,
+            "item" : "5"
+          }, {
+            "count" : 14,
+            "item" : "0.8"
+          }, {
+            "count" : 13,
+            "item" : "-0.8"
+          }, {
+            "count" : 12,
+            "item" : "18"
+          }, {
+            "count" : 11,
+            "item" : "3"
+          }, {
+            "count" : 10,
+            "item" : "14"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 198224706,
+        "name" : "Velocity Components (km/s): vy",
+        "dataTypeName" : "number",
+        "fieldName" : "velocity_components_km_s_vy",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 27309164,
+        "width" : 460,
+        "cachedContents" : {
+          "non_null" : 52,
+          "smallest" : "-43.5",
+          "sum" : "-147.5",
+          "null" : 40,
+          "average" : "-2.836538461538462",
+          "largest" : "16.1",
+          "top" : [ {
+            "count" : 20,
+            "item" : "-2.3"
+          }, {
+            "count" : 19,
+            "item" : "-13.3"
+          }, {
+            "count" : 18,
+            "item" : "14.1"
+          }, {
+            "count" : 17,
+            "item" : "-5.2"
+          }, {
+            "count" : 16,
+            "item" : "-23.7"
+          }, {
+            "count" : 15,
+            "item" : "-11.6"
+          }, {
+            "count" : 14,
+            "item" : "2"
+          }, {
+            "count" : 13,
+            "item" : "1.1"
+          }, {
+            "count" : 12,
+            "item" : "-2"
+          }, {
+            "count" : 11,
+            "item" : "-17"
+          }, {
+            "count" : 10,
+            "item" : "-16"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 198224708,
+        "name" : "Velocity Components (km/s): vz",
+        "dataTypeName" : "number",
+        "fieldName" : "velocity_components_km_s_vz",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 27309166,
+        "width" : 460,
+        "cachedContents" : {
+          "non_null" : 52,
+          "smallest" : "-27",
+          "sum" : "-59.2",
+          "null" : 40,
+          "average" : "-1.138461538461538",
+          "largest" : "17",
+          "top" : [ {
+            "count" : 20,
+            "item" : "5.1"
+          }, {
+            "count" : 19,
+            "item" : "1"
+          }, {
+            "count" : 18,
+            "item" : "-11.5"
+          }, {
+            "count" : 17,
+            "item" : "12.4"
+          }, {
+            "count" : 16,
+            "item" : "-14.5"
+          }, {
+            "count" : 15,
+            "item" : "-0.7"
+          }, {
+            "count" : 14,
+            "item" : "-18.4"
+          }, {
+            "count" : 13,
+            "item" : "17"
+          }, {
+            "count" : 12,
+            "item" : "-4"
+          }, {
+            "count" : 11,
+            "item" : "-27"
+          }, {
+            "count" : 10,
+            "item" : "-6"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 198224710,
+        "name" : "Total Radiated Energy (J)",
+        "dataTypeName" : "number",
+        "fieldName" : "total_radiated_energy_j",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 27309167,
+        "width" : 400,
+        "cachedContents" : {
+          "non_null" : 92,
+          "smallest" : "20000000000",
+          "sum" : "450587000000000",
+          "null" : 0,
+          "average" : "4897684782608.696",
+          "largest" : "375000000000000",
+          "top" : [ {
+            "count" : 20,
+            "item" : "20000000000"
+          }, {
+            "count" : 19,
+            "item" : "34000000000"
+          }, {
+            "count" : 18,
+            "item" : "44000000000"
+          }, {
+            "count" : 17,
+            "item" : "120000000000"
+          }, {
+            "count" : 16,
+            "item" : "23000000000"
+          }, {
+            "count" : 15,
+            "item" : "20000000000000"
+          }, {
+            "count" : 14,
+            "item" : "10000000000000"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 198224712,
+        "name" : "Calculated Total Impact Energy (kt)",
+        "dataTypeName" : "number",
+        "fieldName" : "calculated_total_impact_energy_kt",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 27309169,
+        "width" : 520,
+        "cachedContents" : {
+          "non_null" : 92,
+          "smallest" : "0.073",
+          "sum" : "583.956",
+          "null" : 0,
+          "average" : "6.347347826086957",
+          "largest" : "440",
+          "top" : [ {
+            "count" : 20,
+            "item" : "0.32"
+          }, {
+            "count" : 19,
+            "item" : "0.2"
+          }, {
+            "count" : 18,
+            "item" : "0.36"
+          }, {
+            "count" : 17,
+            "item" : "0.23"
+          }, {
+            "count" : 16,
+            "item" : "0.073"
+          }, {
+            "count" : 15,
+            "item" : "0.18"
+          }, {
+            "count" : 14,
+            "item" : "0.19"
+          }, {
+            "count" : 13,
+            "item" : "0.11"
+          }, {
+            "count" : 12,
+            "item" : "0.41"
+          }, {
+            "count" : 11,
+            "item" : "0.4"
+          }, {
+            "count" : 10,
+            "item" : "0.15"
+          }, {
+            "count" : 9,
+            "item" : "0.24"
+          }, {
+            "count" : 8,
+            "item" : "0.12"
+          }, {
+            "count" : 7,
+            "item" : "0.1"
+          }, {
+            "count" : 6,
+            "item" : "0.13"
+          }, {
+            "count" : 5,
+            "item" : "0.092"
+          }, {
+            "count" : 4,
+            "item" : "0.21"
+          }, {
+            "count" : 3,
+            "item" : "6.9"
+          }, {
+            "count" : 2,
+            "item" : "0.16"
+          }, {
+            "count" : 1,
+            "item" : "0.55"
+          } ]
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "isxt-qkkm",
+        "displayName" : "nasa-data",
+        "profileImageUrlLarge" : "/api/users/isxt-qkkm/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/isxt-qkkm/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/isxt-qkkm/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "nasa-data",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "isxt-qkkm",
+        "displayName" : "nasa-data",
+        "profileImageUrlLarge" : "/api/users/isxt-qkkm/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/isxt-qkkm/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/isxt-qkkm/profile_images/TINY",
+        "roleName" : "administrator",
+        "screenName" : "nasa-data",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "tags" : [ "spaceapps", "outerspace", "airburstvisual", "intermediate", "model", "platform", "data visualization" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 2161, "6CE00E2B-E462-471D-83BA-A13CF919D8D5", 2161, 1430641807, "885348", 1430641807, "885348", null, "2015-04-30T10:21:01", "48.7S", "139.1E", "26.7", null, "12.2", "-4.2", "0.9", "105000000000", "0.32" ]
+, [ 2162, "56D361A6-F63F-4C4F-93F5-C2ABA783637A", 2162, 1430641807, "885348", 1430641807, "885348", null, "2015-04-21T01:42:51", "37.7N", "39.6W", "37.4", null, "-15.3", "12.8", "7.4", "88000000000", "0.27" ]
+, [ 2163, "8FDE3EAC-5C26-46C6-8EB7-7FA53F5DD486", 2163, 1430641807, "885348", 1430641807, "885348", null, "2015-04-08T04:06:31", "25.5S", "51.5E", "36.3", null, "8", "-15.6", "-7.9", "173000000000", "0.49" ]
+, [ 2164, "4BB87578-7175-432A-AE2A-DE970297773F", 2164, 1430641807, "885348", 1430641807, "885348", null, "2015-04-03T01:39:38", "8.4N", "157.9W", null, null, null, null, null, "42000000000", "0.14" ]
+, [ 2165, "4C5AB5F3-27F9-47B7-82F1-0464BE93DDF1", 2165, 1430641807, "885348", 1430641807, "885348", null, "2015-03-30T21:33:52", "36.1S", "5.5W", "33.1", null, "-13.7", "-1.7", "0.8", "64000000000", "0.2" ]
+, [ 2166, "EF93E8C2-5327-4183-8889-3CE2C5C570AA", 2166, 1430641807, "885348", 1430641807, "885348", null, "2015-03-18T00:04:50", "5.4S", "159.3E", "50", null, null, null, null, "121000000000", "0.36" ]
+, [ 2167, "2FA0B72F-9F94-4A5E-AFBA-709B2AEC85DC", 2167, 1430641807, "885348", 1430641807, "885348", null, "2015-03-11T06:18:59", "8.0N", "119.1E", "35.2", null, "5.5", "-10.5", "-16", "72000000000", "0.23" ]
+, [ 2168, "001390D7-192A-46C8-BFB1-9E590D546DAF", 2168, 1430641807, "885348", 1430641807, "885348", null, "2015-03-08T04:26:28", "39.1S", "118.6W", null, null, null, null, null, "20000000000", "0.073" ]
+, [ 2169, "96C6AAF3-18C1-402A-AE44-7E28A62C806F", 2169, 1430641807, "885348", 1430641807, "885348", null, "2015-03-04T04:30:05", "15.9S", "88.1E", "39.8", null, "7.8", "-16", "-2.5", "55000000000", "0.18" ]
+, [ 2170, "D6EC77D7-B605-4092-BEDA-F6E9D300D4DC", 2170, 1430641807, "885348", 1430641807, "885348", null, "2015-02-26T22:06:24", "68.0N", "149.0W", "33.7", null, "5.6", "-2.3", "-20.2", "188000000000", "0.53" ]
+, [ 2171, "FF654931-E1C9-438F-B72A-C34BD8A00C51", 2171, 1430641807, "885348", 1430641807, "885348", null, "2015-02-25T10:53:24", "12.4N", "122.4W", "42", null, null, null, null, "58000000000", "0.19" ]
+, [ 2172, "D5DD9757-8F61-48BD-9618-0F6362CE3161", 2172, 1430641807, "885348", 1430641807, "885348", null, "2015-02-17T13:19:50", "8.0S", "11.2W", "39", null, "-28.2", "3.4", "4.6", "33000000000", "0.11" ]
+, [ 2173, "4260DA71-B5F3-485B-AF7E-46F03E5B1016", 2173, 1430641807, "885348", 1430641807, "885348", null, "2015-01-09T17:31:47", "23.3S", "49.2W", null, null, null, null, null, "22000000000", "0.079" ]
+, [ 2174, "52F97C9A-2622-4ACE-ACAA-A3BD232313AB", 2174, 1430641807, "885348", 1430641807, "885348", null, "2015-01-09T10:41:11", "2.0N", "28.8E", "36", null, "-10.7", "-7.6", "11.6", "139000000000", "0.41" ]
+, [ 2175, "F3C15FB8-924B-431E-9718-9CF476472021", 2175, 1430641807, "885348", 1430641807, "885348", null, "2015-01-07T01:05:59", "45.7N", "26.9E", "45.5", null, "-35.4", "1.8", "-4.4", "136000000000", "0.4" ]
+, [ 2176, "FBB6513D-70EE-4BE5-A02F-68D8D1AA6CF2", 2176, 1430641807, "885348", 1430641807, "885348", null, "2015-01-02T13:39:19", "31.1S", "140.0E", "38.1", null, "4.5", "-14.4", "-10", "20000000000", "0.073" ]
+, [ 2177, "D34922E3-26ED-45D4-B100-4562FF1DCC01", 2177, 1430641807, "885348", 1430641807, "885348", null, "2014-12-13T02:53:52", "86.7N", "162.1W", "30.7", null, "15.3", "-13.3", "-7.8", "44000000000", "0.15" ]
+, [ 2178, "4A24F1C8-4972-494E-972C-CF6CC4236793", 2178, 1430641807, "885348", 1430641807, "885348", null, "2014-12-12T06:48:11", "33.5N", "144.9E", "26.3", null, "11.5", "-2.8", "-2.2", "33000000000", "0.11" ]
+, [ 2179, "FE93060C-4316-4260-951F-0D1F2190E4BB", 2179, 1430641807, "885348", 1430641807, "885348", null, "2014-12-09T21:19:18", "76.6N", "96.3E", "26.3", null, null, null, null, "78000000000", "0.24" ]
+, [ 2180, "BAFBD4AB-5883-48F5-8C9B-039982640382", 2180, 1430641807, "885348", 1430641807, "885348", null, "2014-11-28T11:47:18", "45.8S", "172.7W", "26.1", null, "0.4", "-1.4", "13.3", "700000000000", "1.7" ]
+, [ 2181, "CCC91B17-0008-4070-A563-8649A50624D3", 2181, 1430641807, "885348", 1430641807, "885348", null, "2014-11-27T12:12:52", "18.8S", "73.4W", "38", null, null, null, null, "55000000000", "0.18" ]
+, [ 2182, "9A45FCE4-67F3-4B2C-B1B4-289937ABC2BD", 2182, 1430641807, "885348", 1430641807, "885348", null, "2014-11-26T23:16:51", "69.5S", "179.7W", "23.3", null, "21.3", "2.2", "13.4", "118000000000", "0.35" ]
+, [ 2183, "70AB8516-C68F-4B3E-A27A-64E2FC046E18", 2183, 1430641807, "885348", 1430641807, "885348", null, "2014-11-26T17:40:16", "68.2S", "24.0W", "37", null, "-7", "16.1", "9.4", "105000000000", "0.32" ]
+, [ 2184, "6DC16252-CB8E-4B03-AD31-F08B724DE735", 2184, 1430641807, "885348", 1430641807, "885348", null, "2014-11-04T20:13:30", "43.1N", "115.8E", "22.2", null, "-7.2", "-12.1", "-7.7", "156000000000", "0.45" ]
+, [ 2185, "264AC11B-26CE-49D4-B9E6-6CAA164CBA95", 2185, 1430641807, "885348", 1430641807, "885348", null, "2014-10-21T18:55:37", "22.2N", "132.9W", null, null, null, null, null, "34000000000", "0.12" ]
+, [ 2186, "A5DC0430-491D-4E76-8723-956084E2ABA6", 2186, 1430641807, "885348", 1430641807, "885348", null, "2014-10-17T14:07:36", "4.6S", "66.3W", "39", null, null, null, null, "72000000000", "0.23" ]
+, [ 2187, "E35A716D-F9CD-4946-9238-71524961B287", 2187, 1430641807, "885348", 1430641807, "885348", null, "2014-10-14T10:25:03", "2.0S", "119.2E", "27.2", null, "15", "-6.9", "-3.5", "29000000000", "0.1" ]
+, [ 2188, "A5F32BB3-1864-418B-9977-E63263ED105E", 2188, 1430641807, "885348", 1430641807, "885348", null, "2014-10-06T20:02:15", "43.7S", "85.7E", null, null, null, null, null, "39000000000", "0.13" ]
+, [ 2189, "F6467F16-9C7C-4C4D-95A9-6DC5FFBED217", 2189, 1430641807, "885348", 1430641807, "885348", null, "2014-09-09T18:55:46", "3.2N", "137.2E", "32.5", null, null, null, null, "28000000000", "0.098" ]
+, [ 2190, "E0033847-5F69-4144-9D6A-D920735D7665", 2190, 1430641807, "885348", 1430641807, "885348", null, "2014-09-05T21:37:26", "22.7N", "150.0W", null, null, null, null, null, "35000000000", "0.12" ]
+, [ 2191, "B7A0189C-92CE-40D6-9C09-AB9F769DFF3C", 2191, 1430641807, "885348", 1430641807, "885348", null, "2014-08-29T23:15:39", "6.2S", "49.9W", null, null, null, null, null, "26000000000", "0.092" ]
+, [ 2192, "305CF139-D226-48BF-A4C6-E95DF96E15D1", 2192, 1430641807, "885348", 1430641807, "885348", null, "2014-08-28T03:07:45", "3.2N", "45.4W", null, null, null, null, null, "34000000000", "0.12" ]
+, [ 2193, "3268D06B-C2DF-44EB-97DC-888DA4E5809C", 2193, 1430641807, "885348", 1430641807, "885348", null, "2014-08-23T06:29:41", "61.7S", "132.6E", "22.2", "16.2", "-2.3", "5.7", "16.5", "3820000000000", "7.6" ]
+, [ 2194, "C93FB185-171E-457E-9C08-36D92D40CCC3", 2194, 1430641807, "885348", 1430641807, "885348", null, "2014-07-29T07:38:07", "49.2S", "172.2W", null, null, null, null, null, "73000000000", "0.23" ]
+, [ 2195, "F9D7C0DF-8E5F-4B7D-A61E-E816C7F3BDE2", 2195, 1430641807, "885348", 1430641807, "885348", null, "2014-07-29T03:07:43", "33.9S", "115.9W", null, null, null, null, null, "53000000000", "0.17" ]
+, [ 2196, "7F04A792-213A-41D0-965E-7AC9974FBC31", 2196, 1430641807, "885348", 1430641807, "885348", null, "2014-06-28T02:40:07", "18.9N", "141.2E", "26.3", "12.4", "12", "3.5", "-10.5", "245000000000", "0.67" ]
+, [ 2197, "AFC5BA64-687C-43B6-A23C-9B1A2AB0AC96", 2197, 1430641807, "885348", 1430641807, "885348", null, "2014-06-26T05:54:41", "71.5S", "93.4E", "28.5", null, "7", "2.9", "8.3", "61000000000", "0.2" ]
+, [ 2198, "D5CC0CBA-5C93-4F34-86E8-FE09CD330171", 2198, 1430641807, "885348", 1430641807, "885348", null, "2014-05-29T01:12:36", "21.9N", "131.1W", "28.7", null, null, null, null, "58000000000", "0.19" ]
+, [ 2199, "25A7A840-2B5B-4133-A268-B0C9103DE178", 2199, 1430641807, "885348", 1430641807, "885348", null, "2014-05-16T20:06:28", "39.4S", "95.9W", "30.8", "18", "2.9", "13.4", "-12.5", "136000000000", "0.4" ]
+, [ 2200, "20881729-B333-42BD-8E65-99FDE6A81BF9", 2200, 1430641807, "885348", 1430641807, "885348", null, "2014-05-16T12:42:48", "44.2S", "176.2W", "44", null, "14.4", "4.6", "6.5", "309000000000", "0.82" ]
+, [ 2201, "84DD66A3-D85F-4DCE-923F-0DC9217F8846", 2201, 1430641807, "885348", 1430641807, "885348", null, "2014-05-08T19:42:37", "36.9S", "87.3E", "35.4", null, "-2", "-16.1", "9.9", "1050000000000", "2.4" ]
+, [ 2202, "AE8C447D-5321-43BD-A4F3-07D02CE91B67", 2202, 1430641807, "885348", 1430641807, "885348", null, "2014-03-29T13:45:41", "28.7S", "121.5E", "30.7", null, "10", "-12.7", "2.2", "39000000000", "0.13" ]
+, [ 2203, "C2C34DF4-5FFC-41C4-9AC0-82549511B878", 2203, 1430641807, "885348", 1430641807, "885348", null, "2014-03-18T11:02:37", "0.0N", "111.8W", "30.5", null, null, null, null, "540000000000", "1.3" ]
+, [ 2204, "572607EF-D73C-4B0B-8694-A4D0C7911F16", 2204, 1430641807, "885348", 1430641807, "885348", null, "2014-03-03T15:00:21", "29.0S", "94.9W", null, null, null, null, null, "94000000000", "0.29" ]
+, [ 2205, "DEDF4BCD-C6FA-419C-850D-C103512EC1B4", 2205, 1430641807, "885348", 1430641807, "885348", null, "2014-02-18T12:50:44", "32.8S", "61.5W", null, null, null, null, null, "26000000000", "0.092" ]
+, [ 2206, "73A0229B-CFAF-43C7-97AC-2C45D44CC54A", 2206, 1430641807, "885348", 1430641807, "885348", null, "2014-02-13T06:47:42", "13.3N", "110.7W", "25", null, null, null, null, "630000000000", "1.5" ]
+, [ 2207, "A3AD8F55-317D-4135-B578-8037B17C4A82", 2207, 1430641807, "885348", 1430641807, "885348", null, "2014-01-15T02:46:19", "18.5S", "141.8E", "29.6", null, null, null, null, "140000000000", "0.41" ]
+, [ 2208, "797BFC2C-6561-425C-AF73-F80EE153F900", 2208, 1430641807, "885348", 1430641807, "885348", null, "2014-01-12T16:00:48", "2.9N", "64.4E", "37", null, "-5.2", "-15.1", "2.6", "78000000000", "0.24" ]
+, [ 2209, "7F3957E4-8988-4B6D-9C04-EDB105F5814E", 2209, 1430641807, "885348", 1430641807, "885348", null, "2014-01-08T17:05:34", "1.3S", "147.6E", "18.7", null, "-3.4", "-43.5", "-10.3", "31000000000", "0.11" ]
+, [ 2210, "DED80D10-5156-44D5-B6FB-3BBA8B2BF36B", 2210, 1430641807, "885348", 1430641807, "885348", null, "2013-12-23T08:30:57", "39.5N", "2.0E", "34.3", null, "-1.1", "11.4", "-9.9", "147000000000", "0.43" ]
+, [ 2211, "3CB0E763-5DD0-49E7-AE71-BEE3D70B147D", 2211, 1430641807, "885348", 1430641807, "885348", null, "2013-12-08T03:10:09", "32.8N", "165.1W", "23.5", null, "2.3", "2.5", "-11.3", "64000000000", "0.2" ]
+, [ 2212, "6CD480B5-D432-4439-8B22-ED035B28E66B", 2212, 1430641807, "885348", 1430641807, "885348", null, "2013-11-21T01:50:35", "44.7N", "35.3E", "59.3", null, "-5", "-11", "-2.7", "75000000000", "0.23" ]
+, [ 2213, "25525721-FE54-44BC-B640-DB8EAD62A0CA", 2213, 1430641807, "885348", 1430641807, "885348", null, "2013-10-12T16:06:45", "19.1S", "25.0W", "22.2", null, "-8", "8.4", "-5.5", "1610000000000", "3.5" ]
+, [ 2214, "12680D6F-D037-4F46-BFCC-612E96E0F576", 2214, 1430641807, "885348", 1430641807, "885348", null, "2013-09-24T15:31:16", "10.3S", "164.7W", "40.7", null, null, null, null, "160000000000", "0.46" ]
+, [ 2215, "E9B6F15F-081A-4CDE-A8F9-C430F42D7026", 2215, 1430641807, "885348", 1430641807, "885348", null, "2013-08-12T18:08:02", "34.4S", "118.2E", "66.6", null, null, null, null, "44000000000", "0.15" ]
+, [ 2216, "2D1216BE-A8B6-48DD-83DC-DA1997573C45", 2216, 1430641807, "885348", 1430641807, "885348", null, "2013-07-31T03:50:14", "31.8S", "137.1E", "29.1", null, "17.7", "-2.3", "-0.1", "69000000000", "0.22" ]
+, [ 2217, "31657E29-4F5D-4294-90DC-19671BB87147", 2217, 1430641807, "885348", 1430641807, "885348", null, "2013-07-30T02:36:58", "50.2S", "90.2E", "25.6", null, "15.9", "-8.6", "5.1", "390000000000", "1" ]
+, [ 2218, "5687E565-8A3E-46D8-83BE-3CB716D3F51C", 2218, 1430641807, "885348", 1430641807, "885348", null, "2013-07-27T08:30:36", "0.3N", "156.2E", "26.5", null, "16", "14.9", "-3.3", "120000000000", "0.36" ]
+, [ 2219, "20D8A4E0-8532-4A0E-AA46-DB93B67AF9F4", 2219, 1430641807, "885348", 1430641807, "885348", null, "2013-07-26T11:32:26", "21.0N", "178.5W", "37", null, null, null, null, "20000000000", "0.073" ]
+, [ 2220, "B033BDFD-14DD-46B0-9E01-9A41A1D27BE1", 2220, 1430641807, "885348", 1430641807, "885348", null, "2013-06-01T22:49:48", "65.6S", "138.4E", "28.9", null, null, null, null, "34000000000", "0.12" ]
+, [ 2221, "32E6546C-1B66-47F2-AAB8-A0CEC15E64C5", 2221, 1430641807, "885348", 1430641807, "885348", null, "2013-05-14T23:20:21", "3.0S", "76.4E", null, null, null, null, null, "20000000000", "0.073" ]
+, [ 2222, "537A9821-8591-49C0-A16D-CEEE5406B247", 2222, 1430641807, "885348", 1430641807, "885348", null, "2013-04-30T08:40:38", "35.5N", "30.7W", "21.2", null, "1", "9", "-8", "5110000000000", "10" ]
+, [ 2223, "84E472B5-C1D4-4FC7-AB43-A95F854F76DD", 2223, 1430641807, "885348", 1430641807, "885348", null, "2013-04-21T06:23:12", "28.1S", "64.6W", "40.7", null, "5", "14", "1", "1070000000000", "2.5" ]
+, [ 2224, "B914E13C-58C0-4633-AC66-18A31C5E0C69", 2224, 1430641807, "885348", 1430641807, "885348", null, "2013-03-12T10:32:59", "32.7S", "17.1E", "26", null, null, null, null, "29000000000", "0.1" ]
+, [ 2225, "0B150C4B-86E3-4FAC-A993-1245807C3FDF", 2225, 1430641807, "885348", 1430641807, "885348", null, "2013-02-20T13:13:07", "23.0S", "38.8W", null, null, "-11", "-8", "-1", "32000000000", "0.1" ]
+, [ 2226, "D4983A97-1577-4B49-80EC-183DCE2A3A6C", 2226, 1430641807, "885348", 1430641807, "885348", null, "2013-02-15T03:20:33", "54.8N", "61.1E", "23.3", "18.6", "12.8", "-13.3", "-2.4", "375000000000000", "440" ]
+, [ 2227, "B42788A0-B4E5-487A-AB90-9A47391DCAA9", 2227, 1430641807, "885348", 1430641807, "885348", null, "2013-02-07T13:12:24", "18.8S", "158.6W", null, null, null, null, null, "65000000000", "0.21" ]
+, [ 2228, "34AFEDA2-B2A1-4B3D-894A-7789399AA5B7", 2228, 1430641807, "885348", 1430641807, "885348", null, "2013-01-25T07:40:18", "60.3N", "64.6W", null, null, null, null, null, "3400000000000", "6.9" ]
+, [ 2229, "1D1B7DB0-AFE4-454E-8073-9F95C58CBD88", 2229, 1430641807, "885348", 1430641807, "885348", null, "2013-01-12T03:04:21", "15.1S", "155.6W", "36.1", null, null, null, null, "48000000000", "0.16" ]
+, [ 2230, "09D6E321-92CA-4CF8-9289-65F9827C6CE1", 2230, 1430641807, "885348", 1430641807, "885348", null, "2012-12-30T07:25:35", "17.3N", "83.6W", null, null, null, null, null, "198000000000", "0.55" ]
+, [ 2231, "0D3B52D7-FB45-457C-AEAF-90E2B7CF1035", 2231, 1430641807, "885348", 1430641807, "885348", null, "2012-11-20T20:37:31", "2.5N", "29.6E", "33.3", null, "-12.2", "-5.3", "5.3", "25000000000", "0.089" ]
+, [ 2232, "4DB2D1E4-1DF3-48CD-8719-33D01D1F904B", 2232, 1430641807, "885348", 1430641807, "885348", null, "2012-11-20T06:25:11", "8.0S", "86.0W", null, null, null, null, null, "120000000000", "0.36" ]
+, [ 2233, "F58754E7-7FCA-4F54-8D01-B8CB4990215C", 2233, 1430641807, "885348", 1430641807, "885348", null, "2012-10-19T16:26:22", "75.4S", "49.6E", "29.3", null, "-2.3", "-3.9", "12.4", "23000000000", "0.082" ]
+, [ 2234, "D5E96567-FC27-4C4B-B8B6-8845FBE33D4A", 2234, 1430641807, "885348", 1430641807, "885348", null, "2012-10-09T00:54:55", "51.2N", "84.6W", "27.8", null, "3.4", "12", "5.1", "210000000000", "0.58" ]
+, [ 2235, "16C9E12C-8E2C-4959-9F6F-62C18CF5B389", 2235, 1430641807, "885348", 1430641807, "885348", null, "2012-10-03T22:50:12", "41.5S", "21.9W", null, null, "-2.4", "5.5", "15.9", "280000000000", "0.75" ]
+, [ 2236, "8E34A581-516F-47A7-879A-DFBC2B70D454", 2236, 1430641807, "885348", 1430641807, "885348", null, "2012-10-02T16:38:38", "8.1S", "111.9W", "35", null, "1.4", "15.3", "1", "470000000000", "1.2" ]
+, [ 2237, "3976159F-16B6-4254-A692-35BA8B9CDD50", 2237, 1430641807, "885348", 1430641807, "885348", null, "2012-09-28T05:44:12", "6.9S", "73.7E", null, null, null, null, null, "38000000000", "0.13" ]
+, [ 2238, "79554809-5C5B-4BC9-B1EB-8E2410CC0E8A", 2238, 1430641807, "885348", 1430641807, "885348", null, "2012-09-18T19:34:39", "1.2N", "52.2W", "28.1", null, "-1.9", "14.1", "-11.5", "244000000000", "0.67" ]
+, [ 2239, "9FD22119-B9F4-40B0-BAAE-829D09C85FD3", 2239, 1430641807, "885348", 1430641807, "885348", null, "2012-09-11T22:07:30", "18.9S", "105.2E", null, null, null, null, null, "52000000000", "0.17" ]
+, [ 2240, "3DAAD417-0EF9-4062-AA32-9A235A0CBBDA", 2240, 1430641807, "885348", 1430641807, "885348", null, "2012-09-10T01:03:32", "69.8S", "111.7W", "23.8", null, "-10.2", "-5.2", "12.4", "23000000000", "0.082" ]
+, [ 2241, "909D2E5F-E09A-46DB-96DD-3C8510F6334D", 2241, 1430641807, "885348", 1430641807, "885348", null, "2012-08-27T06:57:43", "18.3S", "64.2E", "38.7", null, "-8", "-23.7", "-14.5", "68000000000", "0.22" ]
+, [ 2242, "06E7C001-EE5A-48E8-9475-832D402C2F6E", 2242, 1430641807, "885348", 1430641807, "885348", null, "2012-08-26T14:55:47", "11.8N", "117.0E", "36", null, "5", "-11.6", "-0.7", "249000000000", "0.68" ]
+, [ 2243, "BECD7936-AFD1-4966-B8F5-F4119B8A8214", 2243, 1430641807, "885348", 1430641807, "885348", null, "2012-07-27T04:19:50", "63.1N", "172.3E", "27.2", null, null, null, null, "34000000000", "0.12" ]
+, [ 2244, "883DAA48-A906-42DA-A36E-78A9C2861087", 2244, 1430641807, "885348", 1430641807, "885348", null, "2012-07-25T07:48:20", "36.4N", "41.5E", "26.8", null, "0.8", "2", "-18.4", "133000000000", "0.39" ]
+, [ 2245, "456EE878-2994-4A78-9BC3-4D5DDA21B4BB", 2245, 1430641807, "885348", 1430641807, "885348", null, "2012-05-25T11:31:24", "41.8S", "36.2W", null, null, null, null, null, "60000000000", "0.19" ]
+, [ 2246, "19F7537D-7ECD-48F9-BF85-8B70CEF9F964", 2246, 1430641807, "885348", 1430641807, "885348", null, "2012-05-15T11:04:17", "61.8S", "135.5W", "33.3", null, "-0.8", "1.1", "17", "132000000000", "0.39" ]
+, [ 2247, "CEDD1AEA-69AC-4B1F-AF7D-E1D0E55CDB8D", 2247, 1430641807, "885348", 1430641807, "885348", null, "2012-05-04T21:54:49", "76.7N", "10.6W", null, null, null, null, null, "229000000000", "0.63" ]
+, [ 2248, "8ED19A26-F4C5-44FC-B36F-BAF2228026DE", 2248, 1430641807, "885348", 1430641807, "885348", null, "2012-04-23T22:01:10", "36.2N", "107.4E", "25.2", null, null, null, null, "44000000000", "0.15" ]
+, [ 2249, "972581AE-B7C1-4E31-9B4C-C0E52031F8CE", 2249, 1430641807, "885348", 1430641807, "885348", null, "2012-04-21T16:08:23", "15.8S", "174.8W", null, null, null, null, null, "143000000000", "0.42" ]
+, [ 2250, "F163FE74-EB85-4567-AD96-F51F1473155D", 2250, 1430641807, "885348", 1430641807, "885348", null, "2010-12-25T23:24:00", "38.0N", "158.0E", "26", "18.1", "18", "-2", "-4", "20000000000000", "33" ]
+, [ 2251, "2141837F-16C0-455B-948D-F64CAE7028AD", 2251, 1430641807, "885348", 1430641807, "885348", null, "2009-11-21T20:53:00", "22.0S", "29.2E", "38", "32.1", "3", "-17", "-27", "10000000000000", "18" ]
+, [ 2252, "288F764E-3318-4789-8DF5-159A58EAB78B", 2252, 1430641807, "885348", 1430641807, "885348", null, "2009-10-08T02:57:00", "4.2S", "120.6E", "19.1", "19.2", "14", "-16", "-6", "20000000000000", "33" ]
+ ]
+}
