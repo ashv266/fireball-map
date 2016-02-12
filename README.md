@@ -2,8 +2,8 @@
 Interactive fireball intensity map
 
 #Pre-requisites
-Flask
+-Flask
     Ensure Flask is installed from : http://flask.pocoo.org/
-Python 
+-Python 
     Ensure Python is installed (version 2.7 or higher): https://www.python.org/downloads/
 
