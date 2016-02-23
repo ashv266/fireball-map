@@ -1,4 +1,5 @@
 import React, {PropTypes} from 'react';
+import LeafletMap from './leafletMap';
 
 const FireballMapApp = (props) => {
 
@@ -7,7 +8,7 @@ const FireballMapApp = (props) => {
   return (
     <div>
       <h2>Fireball Map Application</h2>
-      [ Map Placeholder ]
+      <LeafletMap />
     </div>
   );
 };

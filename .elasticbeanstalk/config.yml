@@ -1,0 +1,10 @@
+branch-defaults:
+  master:
+    environment: fireball-map-dev
+global:
+  application_name: fireball-map
+  default_ec2_keyname: aws-eb2
+  default_platform: Python 2.7
+  default_region: us-east-1
+  profile: eb-cli
+  sc: git
