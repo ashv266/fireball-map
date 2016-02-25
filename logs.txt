@@ -1,0 +1,366 @@
+Retrieving logs...
+============= i-75a8b9f5 ==============
+-------------------------------------
+/var/log/eb-version-deployment.log
+-------------------------------------
+2016-02-24 00:52:22,121 [INFO] Found the latest version manifest file <Key: elasticbeanstalk-us-east-1-873936400904,resources/environments/e-ym7mmypdnj/_runtime/versions/manifest_1456274928251> from bucket elasticbeanstalk-us-east-1-873936400904 and prefix resources/environments/e-ym7mmypdnj/_runtime/versions/
+2016-02-24 00:52:22,201 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+2016-02-24 00:52:22,328 [INFO] Downloaded version label app-7cf8-160223_194835 from s3 key <Key: elasticbeanstalk-us-east-1-873936400904,resources/environments/e-ym7mmypdnj/_runtime/_versions/dev1/app-7cf8-160223_194835>
+
+
+
+-------------------------------------
+/var/log/httpd/error_log
+-------------------------------------
+[Wed Feb 24 00:52:32.843016 2016] [suexec:notice] [pid 2696] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Feb 24 00:52:32.853702 2016] [auth_digest:notice] [pid 2696] AH01757: generating secret for digest authentication ...
+[Wed Feb 24 00:52:32.854225 2016] [lbmethod_heartbeat:notice] [pid 2696] AH02282: No slotmem from mod_heartmonitor
+[Wed Feb 24 00:52:32.854257 2016] [:warn] [pid 2696] mod_wsgi: Compiled for Python/2.7.9.
+[Wed Feb 24 00:52:32.854261 2016] [:warn] [pid 2696] mod_wsgi: Runtime using Python/2.7.10.
+[Wed Feb 24 00:52:32.855731 2016] [mpm_prefork:notice] [pid 2696] AH00163: Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 configured -- resuming normal operations
+[Wed Feb 24 00:52:32.855744 2016] [core:notice] [pid 2696] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+[Wed Feb 24 00:53:21.695568 2016] [mpm_prefork:notice] [pid 2696] AH00169: caught SIGTERM, shutting down
+[Wed Feb 24 00:53:22.750117 2016] [suexec:notice] [pid 2863] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Feb 24 00:53:22.761075 2016] [so:warn] [pid 2863] AH01574: module wsgi_module is already loaded, skipping
+[Wed Feb 24 00:53:22.763528 2016] [auth_digest:notice] [pid 2863] AH01757: generating secret for digest authentication ...
+[Wed Feb 24 00:53:22.764152 2016] [lbmethod_heartbeat:notice] [pid 2863] AH02282: No slotmem from mod_heartmonitor
+[Wed Feb 24 00:53:22.764219 2016] [:warn] [pid 2863] mod_wsgi: Compiled for Python/2.7.9.
+[Wed Feb 24 00:53:22.764226 2016] [:warn] [pid 2863] mod_wsgi: Runtime using Python/2.7.10.
+[Wed Feb 24 00:53:22.766089 2016] [mpm_prefork:notice] [pid 2863] AH00163: Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 configured -- resuming normal operations
+[Wed Feb 24 00:53:22.766105 2016] [core:notice] [pid 2863] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+
+
+
+-------------------------------------
+/opt/python/log/supervisord.log
+-------------------------------------
+2016-02-24 00:52:29,797 CRIT Supervisor running as root (no user in config file)
+2016-02-24 00:52:29,811 INFO RPC interface 'supervisor' initialized
+2016-02-24 00:52:29,811 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2016-02-24 00:52:29,812 INFO supervisord started with pid 2615
+2016-02-24 00:52:30,813 INFO spawned: 'httpd' with pid 2696
+2016-02-24 00:52:31,814 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2016-02-24 00:53:21,707 INFO stopped: httpd (exit status 0)
+2016-02-24 00:53:22,712 INFO spawned: 'httpd' with pid 2863
+2016-02-24 00:53:23,750 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+
+
+
+-------------------------------------
+/var/log/httpd/access_log
+-------------------------------------
+172.31.25.203 (51.255.65.66) - - [24/Feb/2016:19:27:09 +0000] "GET /rpc-tv-maringa-reuniu-publicitarios-em-feijoada-do-midia/galeria-dia-do-midia-mar50/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.57) - - [24/Feb/2016:19:40:20 +0000] "GET /rpc-tv-ponta-grossa-estreia-telejornais-locais-em-alta-definicao/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.89) - - [24/Feb/2016:19:55:26 +0000] "GET /wp-content/uploads/2014/07/MAR_4708.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.14) - - [24/Feb/2016:19:57:06 +0000] "GET /tag/competitividade/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.48) - - [24/Feb/2016:19:58:43 +0000] "GET /wp-content/uploads/2014/06/7B1A8980.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.85) - - [24/Feb/2016:20:09:53 +0000] "GET /wp-content/uploads/2015/02/QW2015-2-2-79041CQW.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.33) - - [24/Feb/2016:20:13:13 +0000] "GET /sites/site-malhacao/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.55) - - [24/Feb/2016:20:15:09 +0000] "GET /wp-content/uploads/2013/10/IMG_1157.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (146.185.239.100) - - [24/Feb/2016:20:15:10 +0000] "GET /?PHPSESSID=aab45f4f00143TPMSUHGE%5CBX HTTP/1.1" 200 12 "-" "-"
+::1 (-) - - [24/Feb/2016:20:16:15 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [24/Feb/2016:20:16:16 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [24/Feb/2016:20:16:17 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+172.31.25.203 (51.255.65.5) - - [24/Feb/2016:20:18:56 +0000] "GET /noticias/oportunidades/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.34) - - [24/Feb/2016:20:42:55 +0000] "GET /wp-content/uploads/2013/06/IMG_6907.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.75) - - [24/Feb/2016:20:47:37 +0000] "GET /sites/tapas-e-beijos HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.66) - - [24/Feb/2016:20:50:09 +0000] "GET /wp-content/uploads/2013/10/IMG_1325.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.39) - - [24/Feb/2016:20:53:03 +0000] "GET /rpc-comemora-o-dia-do-publicitario-em-ponta-grossa/9x4a6081/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.34) - - [24/Feb/2016:20:56:43 +0000] "GET /wp-content/uploads/2013/10/IMG_0531.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.80) - - [24/Feb/2016:20:57:25 +0000] "GET /o-que-aprender-com-os-gurus-da-gestao/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.59) - - [24/Feb/2016:21:08:10 +0000] "GET /estruturatecnica.html HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.18) - - [24/Feb/2016:21:09:30 +0000] "GET /rpc-comemora-o-dia-do-publicitario-em-ponta-grossa/toten-2/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.92) - - [24/Feb/2016:21:16:07 +0000] "GET /wp-content/uploads/2014/10/OP3A2688.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.89) - - [24/Feb/2016:21:22:36 +0000] "GET /wp-content/uploads/2013/10/IMG_1106.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.6) - - [24/Feb/2016:21:24:40 +0000] "GET /wp-content/uploads/2015/10/thevoice.png HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.21) - - [24/Feb/2016:21:31:24 +0000] "GET /tag/oven/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.80) - - [24/Feb/2016:22:08:34 +0000] "GET /tag/telemaco-borba/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.19) - - [24/Feb/2016:22:12:34 +0000] "GET /wp-content/uploads/2013/09/DE-OLHO-NO-MERCADO-UMUARAMA-37.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.20) - - [24/Feb/2016:22:15:55 +0000] "GET /oportunidades/globo-comunidade-patrocinio-web/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.27) - - [24/Feb/2016:22:26:19 +0000] "GET /cresce-numero-de-empresas-que-apostam-em-branded-content-no-brasil/beto-vivas-vivas-comunicacao/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.27) - - [24/Feb/2016:22:26:31 +0000] "GET /wp-content/uploads/2013/11/P1020621a.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+::1 (-) - - [24/Feb/2016:22:27:31 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [24/Feb/2016:22:27:32 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [24/Feb/2016:22:27:36 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [24/Feb/2016:22:27:37 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+172.31.25.203 (51.255.65.67) - - [24/Feb/2016:22:28:25 +0000] "GET /novo-programa-da-rpc-tv-discute-cotidiano-dos-paranaenses/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.89) - - [24/Feb/2016:22:28:37 +0000] "GET /wp-content/uploads/2015/08/Dilvo-Grolli-Copavel-1.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+::1 (-) - - [24/Feb/2016:22:29:37 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [24/Feb/2016:22:29:38 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [24/Feb/2016:22:29:42 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [24/Feb/2016:22:29:43 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+172.31.25.203 (51.255.65.96) - - [24/Feb/2016:22:29:55 +0000] "GET /wp-content/uploads/2014/08/IMG_8178.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.45) - - [24/Feb/2016:22:32:34 +0000] "GET /rpc-comemora-o-dia-do-publicitario-em-ponta-grossa/9x4a5899/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.21) - - [24/Feb/2016:22:37:40 +0000] "GET /midia/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.60) - - [24/Feb/2016:22:38:29 +0000] "GET /eventos/quem-sao-o-que-fazem-e-o-que-querem-os-consumidores-de-ponta-grossa/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.43) - - [24/Feb/2016:22:38:29 +0000] "GET /wp-content/uploads/2015/06/pequenas-ind%C3%BAstrias-reduzem-margem-de-lucro-para-ganhar-mercado.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.43) - - [24/Feb/2016:22:39:20 +0000] "GET /rpc-tv-faz-lancamento-de-o-rebu-para-clientes-de-ponta-grossa/img_2724/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+::1 (-) - - [24/Feb/2016:22:39:28 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [24/Feb/2016:22:39:29 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [24/Feb/2016:22:39:33 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+172.31.25.203 (51.255.65.65) - - [24/Feb/2016:22:39:58 +0000] "GET /wp-content/uploads/2014/07/Galeria-Dia-do-Midia-Mar161.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.46) - - [24/Feb/2016:22:40:04 +0000] "GET /wp-content/uploads/2014/04/Confraria-Capel-016-gpi-q100.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+::1 (-) - - [24/Feb/2016:22:41:09 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [24/Feb/2016:22:41:16 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+172.31.25.203 (51.255.65.20) - - [24/Feb/2016:22:51:34 +0000] "GET /wp-content/uploads/2015/08/APUCARANA-32.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.66) - - [24/Feb/2016:22:55:15 +0000] "GET /wp-content/uploads/2013/10/IMG_1475.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.53) - - [24/Feb/2016:22:58:23 +0000] "GET /rpc-comemora-o-dia-do-publicitario-em-ponta-grossa/9x4a6013/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.60) - - [24/Feb/2016:22:59:55 +0000] "GET /tag/tendencias/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.21) - - [24/Feb/2016:23:02:20 +0000] "GET /cases/internet-cases/feed/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.46) - - [24/Feb/2016:23:10:05 +0000] "GET /programas/alto-astral HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.79) - - [24/Feb/2016:23:16:50 +0000] "GET /wp-content/uploads/2015/07/IMG_3112.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.43) - - [24/Feb/2016:23:19:36 +0000] "GET /wp-content/uploads/2015/02/O-Rei-do-Gado.1.png HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.30) - - [24/Feb/2016:23:20:15 +0000] "GET /sites/bom-dia-parana-2 HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.84) - - [24/Feb/2016:23:21:27 +0000] "GET /wp-content/uploads/2013/10/IMG_0664.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.15) - - [24/Feb/2016:23:22:20 +0000] "GET /wp-content/uploads/2015/06/Willian-e-Neide-Paulino-campanha-detran.png HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.65) - - [24/Feb/2016:23:28:31 +0000] "GET /tag/setores/feed/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.15) - - [24/Feb/2016:23:34:43 +0000] "GET /wp-content/uploads/2013/07/IMG_9178.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.52) - - [24/Feb/2016:23:36:19 +0000] "GET /tag/comunicacao-visual/feed/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.59) - - [24/Feb/2016:23:40:13 +0000] "GET /wp-content/uploads/2014/06/Dia-do-Midia-49.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.70) - - [24/Feb/2016:23:40:49 +0000] "GET /wp-content/uploads/2013/06/feijoada-do-midia-grpcom-72.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.19) - - [24/Feb/2016:23:43:12 +0000] "GET /wp-content/uploads/2015/08/LONDRINA-40.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.17) - - [24/Feb/2016:23:48:02 +0000] "GET /tag/mercado/feed/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.21) - - [24/Feb/2016:23:49:23 +0000] "GET /wp-content/uploads/2013/10/IMG_1738.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.14) - - [24/Feb/2016:23:52:34 +0000] "GET /filmes-shows-e-programas-comemorativos-marcam-final-de-ano-na-rpc-tv/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.39) - - [25/Feb/2016:00:00:13 +0000] "GET /profissional-de-atendimento-peca-estrategica-na-relacao-entre-agencia-e-cliente/erika-herkenhoff-vivas-comunicacao/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.92) - - [25/Feb/2016:00:08:34 +0000] "GET /wp-content/uploads/2013/09/DSCN3221.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.82) - - [25/Feb/2016:00:11:48 +0000] "GET /economia/paixao-feminina-por-calcados-mantem-setor-aquecido/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.61) - - [25/Feb/2016:00:13:56 +0000] "GET /wp-content/uploads/2015/07/paranaense-racional-no-consumo.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.80) - - [25/Feb/2016:00:19:18 +0000] "GET /rpc-comemora-o-dia-do-publicitario-em-guarapuava/foto-31/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.37) - - [25/Feb/2016:00:19:24 +0000] "GET /wp-content/uploads/2013/06/Midia-15.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+::1 (-) - - [25/Feb/2016:00:20:23 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [25/Feb/2016:00:20:24 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [25/Feb/2016:00:20:28 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [25/Feb/2016:00:20:29 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+172.31.25.203 (51.255.65.33) - - [25/Feb/2016:00:29:31 +0000] "GET /wp-content/uploads/2014/07/GOPR0695.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.33) - - [25/Feb/2016:00:32:45 +0000] "GET /comportamento/como-entender-o-novo-perfil-do-seu-consumidor/feed/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.84) - - [25/Feb/2016:00:49:27 +0000] "GET /wp-content/uploads/2013/07/IMG_9024.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.50) - - [25/Feb/2016:00:50:02 +0000] "GET /wp-content/uploads/2014/06/7B1A9147.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.30) - - [25/Feb/2016:00:50:19 +0000] "GET /tag/saude-emocional/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+::1 (-) - - [25/Feb/2016:00:51:19 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [25/Feb/2016:00:51:24 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+172.31.25.203 (51.255.65.94) - - [25/Feb/2016:00:59:32 +0000] "GET /wp-content/uploads/2013/10/IMG_1678.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.26) - - [25/Feb/2016:01:05:56 +0000] "GET /cases/2015/11/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.64) - - [25/Feb/2016:01:07:45 +0000] "GET /wp-content/uploads/2014/07/Galeria-Dia-do-Midia-Mar140.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.17) - - [25/Feb/2016:01:08:03 +0000] "GET /noticias/rpc-com-voce/vem_ai/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+::1 (-) - - [25/Feb/2016:01:09:08 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [25/Feb/2016:01:09:09 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+::1 (-) - - [25/Feb/2016:01:09:18 +0000] "OPTIONS * HTTP/1.0" 200 - "-" "Apache/2.4.16 (Amazon) mod_wsgi/3.5 Python/2.7.10 (internal dummy connection)"
+172.31.25.203 (51.255.65.40) - - [25/Feb/2016:01:11:11 +0000] "GET /wp-content/uploads/2013/10/IMG_1067.jpg HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.94) - - [25/Feb/2016:01:16:08 +0000] "GET /economia/pensou-no-parana-pensou-em-agronegocio/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+172.31.25.203 (51.255.65.89) - - [25/Feb/2016:01:17:04 +0000] "GET /rpc-comemora-o-dia-do-publicitario-em-ponta-grossa/9x4a5853/ HTTP/1.1" 404 233 "-" "Mozilla/5.0 (compatible; AhrefsBot/5.0; +http://ahrefs.com/robot/)"
+
+
+
+-------------------------------------
+/var/log/eb-activity.log
+-------------------------------------
+    inflating: /opt/python/ondeck/app/src/fonts/glyphicons-halflings-regular.ttf  
+    inflating: /opt/python/ondeck/app/src/fonts/glyphicons-halflings-regular.woff  
+   extracting: /opt/python/ondeck/app/src/fonts/glyphicons-halflings-regular.woff2  
+    inflating: /opt/python/ondeck/app/src/hello.js  
+    inflating: /opt/python/ondeck/app/src/index.js  
+    inflating: /opt/python/ondeck/app/src/main.css  
+    inflating: /opt/python/ondeck/app/src/main.js  
+     creating: /opt/python/ondeck/app/src/stylesheets/
+    inflating: /opt/python/ondeck/app/src/stylesheets/bootstrap.min.css  
+    inflating: /opt/python/ondeck/app/webpack.config.js  
+[2016-02-24T00:53:07.818Z] INFO  [2711]  - [Application deployment/StartupStage0/AppDeployPreHook/03deploy.py] : Starting activity...
+[2016-02-24T00:53:19.058Z] INFO  [2711]  - [Application deployment/StartupStage0/AppDeployPreHook/03deploy.py] : Completed activity. Result:
+  Collecting boto3==1.2.4 (from -r /opt/python/ondeck/app/requirements.txt (line 1))
+    Downloading boto3-1.2.4-py2.py3-none-any.whl (110kB)
+  Collecting botocore==1.3.28 (from -r /opt/python/ondeck/app/requirements.txt (line 2))
+    Downloading botocore-1.3.28-py2.py3-none-any.whl (2.2MB)
+  Collecting docutils==0.12 (from -r /opt/python/ondeck/app/requirements.txt (line 3))
+    Downloading docutils-0.12.tar.gz (1.6MB)
+  Collecting Flask==0.10.1 (from -r /opt/python/ondeck/app/requirements.txt (line 4))
+    Downloading Flask-0.10.1.tar.gz (544kB)
+  Collecting futures==3.0.5 (from -r /opt/python/ondeck/app/requirements.txt (line 5))
+    Downloading futures-3.0.5-py2-none-any.whl
+  Collecting itsdangerous==0.24 (from -r /opt/python/ondeck/app/requirements.txt (line 6))
+    Downloading itsdangerous-0.24.tar.gz (46kB)
+  Collecting Jinja2==2.8 (from -r /opt/python/ondeck/app/requirements.txt (line 7))
+    Downloading Jinja2-2.8-py2.py3-none-any.whl (263kB)
+  Collecting jmespath==0.9.0 (from -r /opt/python/ondeck/app/requirements.txt (line 8))
+    Downloading jmespath-0.9.0-py2.py3-none-any.whl
+  Collecting MarkupSafe==0.23 (from -r /opt/python/ondeck/app/requirements.txt (line 9))
+    Downloading MarkupSafe-0.23.tar.gz
+  Collecting python-dateutil==2.4.2 (from -r /opt/python/ondeck/app/requirements.txt (line 10))
+    Downloading python_dateutil-2.4.2-py2.py3-none-any.whl (188kB)
+  Collecting six==1.10.0 (from -r /opt/python/ondeck/app/requirements.txt (line 11))
+    Downloading six-1.10.0-py2.py3-none-any.whl
+  Collecting Werkzeug==0.11.4 (from -r /opt/python/ondeck/app/requirements.txt (line 12))
+    Downloading Werkzeug-0.11.4-py2.py3-none-any.whl (305kB)
+  Collecting wheel==0.26.0 (from -r /opt/python/ondeck/app/requirements.txt (line 13))
+    Downloading wheel-0.26.0-py2.py3-none-any.whl (63kB)
+  Installing collected packages: jmespath, futures, six, python-dateutil, docutils, botocore, boto3, Werkzeug, MarkupSafe, Jinja2, itsdangerous, Flask, wheel
+    Running setup.py install for docutils
+    Running setup.py install for MarkupSafe
+    Running setup.py install for itsdangerous
+    Running setup.py install for Flask
+  Successfully installed Flask-0.10.1 Jinja2-2.8 MarkupSafe-0.23 Werkzeug-0.11.4 boto3-1.2.4 botocore-1.3.28 docutils-0.12 futures-3.0.5 itsdangerous-0.24 jmespath-0.9.0 python-dateutil-2.4.2 six-1.10.0 wheel-0.26.0
+  You are using pip version 7.1.2, however version 8.0.2 is available.
+  You should consider upgrading via the 'pip install --upgrade pip' command.
+[2016-02-24T00:53:19.058Z] INFO  [2711]  - [Application deployment/StartupStage0/AppDeployPreHook/04configen.py] : Starting activity...
+[2016-02-24T00:53:20.610Z] INFO  [2711]  - [Application deployment/StartupStage0/AppDeployPreHook/04configen.py] : Completed activity.
+[2016-02-24T00:53:20.610Z] INFO  [2711]  - [Application deployment/StartupStage0/AppDeployPreHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/pre.
+[2016-02-24T00:53:20.610Z] INFO  [2711]  - [Application deployment/StartupStage0/EbExtensionPostBuild] : Starting activity...
+[2016-02-24T00:53:21.082Z] INFO  [2711]  - [Application deployment/StartupStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Starting activity...
+[2016-02-24T00:53:21.082Z] INFO  [2711]  - [Application deployment/StartupStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Completed activity.
+[2016-02-24T00:53:21.099Z] INFO  [2711]  - [Application deployment/StartupStage0/EbExtensionPostBuild] : Completed activity.
+[2016-02-24T00:53:21.099Z] INFO  [2711]  - [Application deployment/StartupStage0/InfraCleanEbExtension] : Starting activity...
+[2016-02-24T00:53:21.101Z] INFO  [2711]  - [Application deployment/StartupStage0/InfraCleanEbExtension] : Completed activity. Result:
+  Cleaned ebextensions subdirectories from /opt/python/ondeck/app.
+[2016-02-24T00:53:21.101Z] INFO  [2711]  - [Application deployment/StartupStage0] : Completed activity. Result:
+  Application deployment - Command CMD-Startup stage 0 completed
+[2016-02-24T00:53:21.101Z] INFO  [2711]  - [Application deployment/StartupStage1] : Starting activity...
+[2016-02-24T00:53:21.101Z] INFO  [2711]  - [Application deployment/StartupStage1/AppDeployEnactHook] : Starting activity...
+[2016-02-24T00:53:21.101Z] INFO  [2711]  - [Application deployment/StartupStage1/AppDeployEnactHook/01flip.py] : Starting activity...
+[2016-02-24T00:53:25.457Z] INFO  [2711]  - [Application deployment/StartupStage1/AppDeployEnactHook/01flip.py] : Completed activity. Result:
+  httpd: stopped
+  httpd: started
+  httpd                            RUNNING   pid 2863, uptime 0:00:03
+[2016-02-24T00:53:25.457Z] INFO  [2711]  - [Application deployment/StartupStage1/AppDeployEnactHook/02create_pids_for_monitoring.sh] : Starting activity...
+[2016-02-24T00:53:25.676Z] INFO  [2711]  - [Application deployment/StartupStage1/AppDeployEnactHook/02create_pids_for_monitoring.sh] : Completed activity. Result:
+  + chmod 0755 /var/run/httpd
+  + /opt/elasticbeanstalk/bin/healthd-track-pidfile --proxy httpd
+  + /opt/elasticbeanstalk/bin/healthd-track-pidfile --name application --location /opt/python/run/supervisord.pid
+[2016-02-24T00:53:25.676Z] INFO  [2711]  - [Application deployment/StartupStage1/AppDeployEnactHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/enact.
+[2016-02-24T00:53:25.676Z] INFO  [2711]  - [Application deployment/StartupStage1/AppDeployPostHook] : Starting activity...
+[2016-02-24T00:53:25.676Z] INFO  [2711]  - [Application deployment/StartupStage1/AppDeployPostHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/post.
+[2016-02-24T00:53:25.676Z] INFO  [2711]  - [Application deployment/StartupStage1/PostInitHook] : Starting activity...
+[2016-02-24T00:53:25.676Z] INFO  [2711]  - [Application deployment/StartupStage1/PostInitHook/01processmgrstart.sh] : Starting activity...
+[2016-02-24T00:53:25.680Z] INFO  [2711]  - [Application deployment/StartupStage1/PostInitHook/01processmgrstart.sh] : Completed activity. Result:
+  + pgrep supervisord
+  2615
+[2016-02-24T00:53:25.680Z] INFO  [2711]  - [Application deployment/StartupStage1/PostInitHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/postinit.
+[2016-02-24T00:53:25.680Z] INFO  [2711]  - [Application deployment/StartupStage1] : Completed activity. Result:
+  Application deployment - Command CMD-Startup stage 1 completed
+[2016-02-24T00:53:25.680Z] INFO  [2711]  - [Application deployment/AddonsAfter] : Starting activity...
+[2016-02-24T00:53:25.680Z] INFO  [2711]  - [Application deployment/AddonsAfter/ConfigLogRotation] : Starting activity...
+[2016-02-24T00:53:25.680Z] INFO  [2711]  - [Application deployment/AddonsAfter/ConfigLogRotation/10-config.sh] : Starting activity...
+[2016-02-24T00:53:25.773Z] INFO  [2711]  - [Application deployment/AddonsAfter/ConfigLogRotation/10-config.sh] : Completed activity. Result:
+  Disabled forced hourly log rotation.
+[2016-02-24T00:53:25.773Z] INFO  [2711]  - [Application deployment/AddonsAfter/ConfigLogRotation] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/addons/logpublish/hooks/config.
+[2016-02-24T00:53:25.773Z] INFO  [2711]  - [Application deployment/AddonsAfter] : Completed activity.
+[2016-02-24T00:53:25.774Z] INFO  [2711]  - [Application deployment] : Completed activity. Result:
+  Application deployment - Command CMD-Startup succeeded
+[2016-02-25T01:23:41.113Z] INFO  [14855] - [CMD-TailLogs - stage ] : Starting activity...
+[2016-02-25T01:23:41.416Z] INFO  [14855] - [CMD-TailLogs - stage /AddonsBefore] : Starting activity...
+[2016-02-25T01:23:41.416Z] INFO  [14855] - [CMD-TailLogs - stage /AddonsBefore] : Completed activity.
+[2016-02-25T01:23:41.417Z] INFO  [14855] - [CMD-TailLogs - stage /TailLogs] : Starting activity...
+[2016-02-25T01:23:41.417Z] INFO  [14855] - [CMD-TailLogs - stage /TailLogs/TailLogs] : Starting activity...
+
+
+
+-------------------------------------
+/var/log/eb-commandprocessor.log
+-------------------------------------
+}
+
+[2016-02-24T00:52:21.320Z] INFO  [2509]  : Command processor should execute command.
+[2016-02-24T00:52:21.320Z] DEBUG [2509]  : Storing current stage..
+[2016-02-24T00:52:21.320Z] DEBUG [2509]  : Stage_num does not exist. Not saving null stage. Returning..
+[2016-02-24T00:52:21.320Z] INFO  [2509]  : Executing Initialization
+[2016-02-24T00:52:21.320Z] INFO  [2509]  : Executing command: CMD-PreInit...
+[2016-02-24T00:52:21.320Z] DEBUG [2509]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2016-02-24T00:52:21.320Z] DEBUG [2509]  : Refreshing metadata..
+[2016-02-24T00:52:21.321Z] DEBUG [2509]  : Refreshed environment metadata.
+[2016-02-24T00:52:21.321Z] DEBUG [2509]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2016-02-24T00:52:21.321Z] DEBUG [2509]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2016-02-24T00:52:21.321Z] INFO  [2509]  : Found enabled addons: ["logpublish"].
+[2016-02-24T00:52:21.322Z] INFO  [2509]  : Updating Command definition of addon logpublish.
+[2016-02-24T00:52:21.322Z] DEBUG [2509]  : Loaded definition of Command CMD-PreInit.
+[2016-02-24T00:52:21.322Z] INFO  [2509]  : Executing command CMD-PreInit activities...
+[2016-02-24T00:52:21.322Z] DEBUG [2509]  : Setting environment variables..
+[2016-02-24T00:52:21.322Z] INFO  [2509]  : Running AddonsBefore for command CMD-PreInit...
+[2016-02-24T00:52:21.322Z] DEBUG [2509]  : Running stages of Command CMD-PreInit from stage 0 to stage 0...
+[2016-02-24T00:52:21.322Z] INFO  [2509]  : Running stage 0 of command CMD-PreInit...
+[2016-02-24T00:52:21.322Z] DEBUG [2509]  : Loaded 4 actions for stage 0.
+[2016-02-24T00:52:21.322Z] INFO  [2509]  : Running 1 of 4 actions: InfraWriteConfig...
+[2016-02-24T00:52:21.325Z] INFO  [2509]  : Running 2 of 4 actions: InfraWriteApp1...
+[2016-02-24T00:52:21.326Z] INFO  [2509]  : Running 3 of 4 actions: InfraWriteApp2...
+[2016-02-24T00:52:22.365Z] INFO  [2509]  : Running 4 of 4 actions: PreInitHook...
+[2016-02-24T00:52:29.635Z] INFO  [2509]  : Running AddonsAfter for command CMD-PreInit...
+[2016-02-24T00:52:29.635Z] INFO  [2509]  : Command CMD-PreInit succeeded!
+[2016-02-24T00:52:29.635Z] INFO  [2509]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2016-02-24T00:53:06.191Z] DEBUG [2711]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2016-02-24T00:53:06.191Z] DEBUG [2711]  : Checking if the command processor should execute...
+[2016-02-24T00:53:06.193Z] DEBUG [2711]  : Checking whether the command is applicable to instance (i-75a8b9f5)..
+[2016-02-24T00:53:06.193Z] INFO  [2711]  : Command is applicable to this instance (i-75a8b9f5)..
+[2016-02-24T00:53:06.194Z] DEBUG [2711]  : Checking if the received command stage is valid..
+[2016-02-24T00:53:06.194Z] INFO  [2711]  : No stage_num in command. Valid stage..
+[2016-02-24T00:53:06.194Z] INFO  [2711]  : Received command CMD-Startup: {"execution_data":"{\"leader_election\":\"true\"}","instance_ids":["i-75a8b9f5"],"command_name":"CMD-Startup","api_version":"1.0","resource_name":"AWSEBAutoScalingGroup","request_id":"585ddb92-da90-11e5-9e01-f3f6a0ad9bcd","command_timeout":"600"}
+[2016-02-24T00:53:06.194Z] INFO  [2711]  : Command processor should execute command.
+[2016-02-24T00:53:06.194Z] DEBUG [2711]  : Storing current stage..
+[2016-02-24T00:53:06.194Z] DEBUG [2711]  : Stage_num does not exist. Not saving null stage. Returning..
+[2016-02-24T00:53:06.194Z] INFO  [2711]  : Executing Application deployment
+[2016-02-24T00:53:06.194Z] INFO  [2711]  : Executing command: CMD-Startup...
+[2016-02-24T00:53:06.194Z] DEBUG [2711]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2016-02-24T00:53:06.194Z] DEBUG [2711]  : Refreshing metadata..
+[2016-02-24T00:53:06.497Z] DEBUG [2711]  : Refreshed environment metadata.
+[2016-02-24T00:53:06.497Z] DEBUG [2711]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2016-02-24T00:53:06.498Z] DEBUG [2711]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2016-02-24T00:53:06.498Z] INFO  [2711]  : Found enabled addons: ["logpublish"].
+[2016-02-24T00:53:06.499Z] INFO  [2711]  : Updating Command definition of addon logpublish.
+[2016-02-24T00:53:06.499Z] DEBUG [2711]  : Loaded definition of Command CMD-Startup.
+[2016-02-24T00:53:06.499Z] INFO  [2711]  : Executing command CMD-Startup activities...
+[2016-02-24T00:53:06.499Z] DEBUG [2711]  : Setting environment variables..
+[2016-02-24T00:53:06.499Z] INFO  [2711]  : Running AddonsBefore for command CMD-Startup...
+[2016-02-24T00:53:06.499Z] DEBUG [2711]  : Running stages of Command CMD-Startup from stage 0 to stage 1...
+[2016-02-24T00:53:06.499Z] INFO  [2711]  : Running stage 0 of command CMD-Startup...
+[2016-02-24T00:53:06.499Z] INFO  [2711]  : Running leader election...
+[2016-02-24T00:53:06.801Z] INFO  [2711]  : Instance is Leader.
+[2016-02-24T00:53:06.801Z] DEBUG [2711]  : Loaded 7 actions for stage 0.
+[2016-02-24T00:53:06.801Z] INFO  [2711]  : Running 1 of 7 actions: HealthdLogRotation...
+[2016-02-24T00:53:06.807Z] INFO  [2711]  : Running 2 of 7 actions: HealthdHTTPDLogging...
+[2016-02-24T00:53:06.807Z] INFO  [2711]  : Running 3 of 7 actions: HealthdNginxLogging...
+[2016-02-24T00:53:06.808Z] INFO  [2711]  : Running 4 of 7 actions: EbExtensionPreBuild...
+[2016-02-24T00:53:07.092Z] INFO  [2711]  : Running 5 of 7 actions: AppDeployPreHook...
+[2016-02-24T00:53:20.610Z] INFO  [2711]  : Running 6 of 7 actions: EbExtensionPostBuild...
+[2016-02-24T00:53:21.099Z] INFO  [2711]  : Running 7 of 7 actions: InfraCleanEbExtension...
+[2016-02-24T00:53:21.101Z] INFO  [2711]  : Running stage 1 of command CMD-Startup...
+[2016-02-24T00:53:21.101Z] DEBUG [2711]  : Loaded 3 actions for stage 1.
+[2016-02-24T00:53:21.101Z] INFO  [2711]  : Running 1 of 3 actions: AppDeployEnactHook...
+[2016-02-24T00:53:25.676Z] INFO  [2711]  : Running 2 of 3 actions: AppDeployPostHook...
+[2016-02-24T00:53:25.676Z] INFO  [2711]  : Running 3 of 3 actions: PostInitHook...
+[2016-02-24T00:53:25.680Z] INFO  [2711]  : Running AddonsAfter for command CMD-Startup...
+[2016-02-24T00:53:25.774Z] INFO  [2711]  : Command CMD-Startup succeeded!
+[2016-02-24T00:53:25.774Z] INFO  [2711]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2016-02-25T01:23:41.110Z] DEBUG [14855] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2016-02-25T01:23:41.110Z] DEBUG [14855] : Checking if the command processor should execute...
+[2016-02-25T01:23:41.112Z] DEBUG [14855] : Checking whether the command is applicable to instance (i-75a8b9f5)..
+[2016-02-25T01:23:41.113Z] INFO  [14855] : Command is applicable to this instance (i-75a8b9f5)..
+[2016-02-25T01:23:41.113Z] DEBUG [14855] : Checking if the received command stage is valid..
+[2016-02-25T01:23:41.113Z] INFO  [14855] : No stage_num in command. Valid stage..
+[2016-02-25T01:23:41.113Z] INFO  [14855] : Received command CMD-TailLogs: {"execution_data":"{\"aws_access_key_id\":\"ASIAJERFSR7BGMTEPKCQ\",\"signature\":\"jV3cwl\\\/9UrvlJmlxOpPpGPMXs\\\/8=\",\"security_token\":\"AQoDYXdzEGsawAIj7KrT7PAbNV8BUx7jx4Uy8akRDNr6FDrZ\\\/5VzXs73o3j9UJT+LhOBTb7IqadjIY\\\/eheFKcrHdcN7WEhEmSDcjBD13Ode+\\\/98DM+9jdiii2aawjBnVOOT0wzOY7kR2e2QlEyJG91\\\/VRRfX2HhX97fDK+L3pgCZpUPPNn\\\/FUEowmHposG4oppZ8zSTQdd1UqHIiav3X+O8VWiAN+gxKB+wI0\\\/DmVKzxxfIyx2Z49o97agMonEtI+aWNp8WI+\\\/rXnDH3ux\\\/+v5a+dG+NGF+NEGjBuxsk2wzqgrs94+3fiufFkx4nsLQ0WBBeXMvgLvXQ\\\/Pz+ljiUxZgnXZWUO+R\\\/3vAtYI4oIT4G7r+ggwyFIFtkjdSrnlyJjfv\\\/2KVXWWCAKm0xDE69TgEXIPgek4JSleOC1MzzXn7bqRGDyA+DhFqbDyCZr7m2BQ==\",\"policy\":\"eyJleHBpcmF0aW9uIjoiMjAxNi0wMi0yNVQwMTo1MzozNy45NTNaIiwiY29uZGl0aW9ucyI6W1sic3RhcnRzLXdpdGgiLCIkeC1hbXotbWV0YS10aW1lX3N0YW1wIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLXB1Ymxpc2hfbWVjaGFuaXNtIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRrZXkiLCJyZXNvdXJjZXNcL2Vudmlyb25tZW50c1wvbG9nc1wvIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWJhdGNoX2lkIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWZpbGVfbmFtZSIsIiJdLFsic3RhcnRzLXdpdGgiLCIkeC1hbXotc2VjdXJpdHktdG9rZW4iLCIiXSxbInN0YXJ0cy13aXRoIiwiJENvbnRlbnQtVHlwZSIsIiJdLFsiZXEiLCIkYnVja2V0IiwiZWxhc3RpY2JlYW5zdGFsay11cy1lYXN0LTEtODczOTM2NDAwOTA0Il0sWyJlcSIsIiRhY2wiLCJwcml2YXRlIl1dfQ==\"}","instance_ids":["i-75a8b9f5"],"data":"654e0a5a-db5e-11e5-aaa0-e533e432008c","command_name":"CMD-TailLogs","api_version":"1.0","resource_name":"AWSEBAutoScalingGroup","request_id":"654e0a5a-db5e-11e5-aaa0-e533e432008c","command_timeout":"600"}
+[2016-02-25T01:23:41.113Z] INFO  [14855] : Command processor should execute command.
+[2016-02-25T01:23:41.113Z] DEBUG [14855] : Storing current stage..
+[2016-02-25T01:23:41.113Z] DEBUG [14855] : Stage_num does not exist. Not saving null stage. Returning..
+[2016-02-25T01:23:41.113Z] INFO  [14855] : Executing CMD-TailLogs - stage 
+[2016-02-25T01:23:41.113Z] INFO  [14855] : Executing command: CMD-TailLogs...
+[2016-02-25T01:23:41.113Z] DEBUG [14855] : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2016-02-25T01:23:41.113Z] DEBUG [14855] : Refreshing metadata..
+[2016-02-25T01:23:41.414Z] DEBUG [14855] : Refreshed environment metadata.
+[2016-02-25T01:23:41.414Z] DEBUG [14855] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2016-02-25T01:23:41.415Z] DEBUG [14855] : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2016-02-25T01:23:41.415Z] INFO  [14855] : Found enabled addons: ["logpublish"].
+[2016-02-25T01:23:41.416Z] INFO  [14855] : Updating Command definition of addon logpublish.
+[2016-02-25T01:23:41.416Z] DEBUG [14855] : Loaded definition of Command CMD-TailLogs.
+[2016-02-25T01:23:41.416Z] INFO  [14855] : Executing command CMD-TailLogs activities...
+[2016-02-25T01:23:41.416Z] DEBUG [14855] : Setting environment variables..
+[2016-02-25T01:23:41.416Z] INFO  [14855] : Running AddonsBefore for command CMD-TailLogs...
+[2016-02-25T01:23:41.416Z] DEBUG [14855] : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2016-02-25T01:23:41.416Z] INFO  [14855] : Running stage 0 of command CMD-TailLogs...
+[2016-02-25T01:23:41.417Z] DEBUG [14855] : Loaded 1 actions for stage 0.
+[2016-02-25T01:23:41.417Z] INFO  [14855] : Running 1 of 1 actions: TailLogs...
+
+
+
